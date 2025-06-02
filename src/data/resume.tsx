@@ -151,10 +151,10 @@ export const DATA = {
   hackathons: [
     {
       title: "GenAI Exchange Program - H2S & Google",
-      dates: "April 2nd - Oct 31st, 2015",
+      dates: "April 2nd - Oct 31st, 2025",
       location: "Remote",
       description:
-        "Developed AI powered applications and AI agents to solve real world problems. Learnt Google Clound.",
+        "Developed AI powered applications and AI agents to solve real world problems. Learnt Google Cloud.",
       image:
         "https://uninist.com/blog/wp-content/uploads/2025/05/Google-AI-Exchange-program-696x464.webp",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
