@@ -19,16 +19,15 @@ export const DATA = {
     "Pandas",
     "Apache Spark",
     "Scikit-Learn",
-    "PyTorch",
     "FastAPI",
     "Git & GitHub",
     "Docker",
     "Jupyter Lab",
     "Jenkins",
     "Linux",
-    "AWS",
+    "AWS (S3, EC2, Lambda)",
     "GCP-Firebase",
-    "Domino",
+    "Domino Data Lab",
     "Linear Alebra",
     "Calculus",
     "Probability and Statistics"
@@ -48,6 +47,13 @@ export const DATA = {
 
         navbar: true,
       },
+      // Coursera: {
+      //   name: "Coursera",
+      //   url: "https://dub.sh/sushant-coursera",
+      //   icon: Icons.coursera,
+
+      //   navbar: true,
+      // },
       LinkedIn: {
         name: "LinkedIn",
         url: "https://dub.sh/sushant-linkedin",
@@ -68,7 +74,7 @@ export const DATA = {
       //   icon: Icons.youtube,
       //   navbar: true,
       // },
-      email: {
+      Email: {
         name: "Send Email",
         url: "mailto:contact@sushantgarudkar.in?subject=Contacting%20from%20sushantgarudkar.in&body=Hi%20Sushant,",
         icon: Icons.email,
@@ -93,6 +99,14 @@ export const DATA = {
     }
   ],
   education: [
+    {
+      school: "Imperial College London - Coursera",
+      href: "https://www.coursera.org/account/accomplishments/specialization/Z786S9EJG6FZ",
+      degree: "Mathematics for Machine Learning Specialization",
+      logoUrl: "/imperial.png",
+      start: "2024",
+      end: "2025",
+    },
     {
       school: "Helsinki University",
       href: "https://devopswithdocker.com",
