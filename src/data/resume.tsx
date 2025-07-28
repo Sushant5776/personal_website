@@ -23,13 +23,13 @@ export const DATA = {
     "Git & GitHub",
     "Docker",
     "Jupyter Lab",
-    "Jenkins",
+    "Streamlit",
     "Linux",
-    "AWS (S3, EC2, Lambda)",
-    "GCP-Firebase",
+    "Microsoft Azure",
+    "GCP Firebase",
     "Domino Data Lab",
-    "Linear Alebra",
-    "Calculus",
+    "Linear Algebra",
+    "(Multivariate) Calculus",
     "Probability and Statistics"
   ],
   navbar: [
@@ -89,14 +89,26 @@ export const DATA = {
       company: "Allstate India",
       href: "https://www.allstateindia.com/",
       badges: [],
-      location: "Hybrid",
+      location: "Pune, India",
+      title: "Data Scientist Analyst III",
+      logoUrl: "/allstate.png",
+      start: "July 2025",
+      end: "Present",
+      description:
+        "As a Data Scientist Analyst III at Allstate India, I leverage advanced analytics and machine learning to extract insights from complex data, supporting data-driven decision-making across business functions such as underwriting, claims, and risk assessment. I collaborate with cross-functional teams to develop predictive models and actionable solutions, and ensuring best practices in data governance and model quality.",
+    },
+    {
+      company: "Allstate India Pvt. Ltd.",
+      href: "https://www.allstateindia.com/",
+      badges: [],
+      location: "Pune, India",
       title: "Apprentice Associate III - Data Science",
       logoUrl: "/allstate.png",
       start: "September 2024",
-      end: "Present",
+      end: "July 2025",
       description:
-        "At Allstate, I built and validated data pipelines, processed large datasets with PySpark, and used SHAP and PDP for model explainability. I handled the full model lifecycle—from data prep to production validation. I also developed a Streamlit app for sharing reports with secure filtering and exploration. Collaborating with teams, I delivered actionable insights and quickly gained skills in big data, model deployment, and Automation.",
-    }
+        "In my apprenticeship at Allstate, I built and validated data pipelines, processed large datasets with PySpark, and used SHAP and PDP for model explainability. I handled the full model lifecycle—from data prep to production validation. I also developed a Streamlit app for sharing reports with secure filtering and exploration. Collaborating with teams, I delivered actionable insights and quickly gained skills in big data, model deployment, and Automation.",
+    },
   ],
   education: [
     {
