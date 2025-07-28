@@ -98,7 +98,7 @@ export const DATA = {
         "As a Data Scientist Analyst III at Allstate India, I leverage advanced analytics and machine learning to extract insights from complex data, supporting data-driven decision-making across business functions such as underwriting, claims, and risk assessment. I collaborate with cross-functional teams to develop predictive models and actionable solutions, and ensuring best practices in data governance and model quality.",
     },
     {
-      company: "Allstate India Pvt. Ltd.",
+      company: "Allstate India",
       href: "https://www.allstateindia.com/",
       badges: [],
       location: "Pune, India",
