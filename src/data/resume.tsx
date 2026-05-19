@@ -113,7 +113,7 @@ export const DATA = {
   education: [
     {
       school: "Indian Institute of Information Technology",
-      href: "#",
+      href: "https://onlinedsai.iiitdwd.ac.in",
       degree: "Master's Degree in Data Science and Artificial Intelligence",
       logoUrl: "#",
       start: "2025",
