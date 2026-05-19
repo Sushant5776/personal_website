@@ -146,7 +146,7 @@ export const DATA = {
     {
       school: "Savitribai Phule Pune University",
       href: "http://www.unipune.ac.in/",
-      degree: "Bachelor's Degree of Computer Engineering",
+      degree: "Bachelor's Degree in Computer Engineering",
       logoUrl: "/sppu.png",
       start: "2019",
       end: "2023",
