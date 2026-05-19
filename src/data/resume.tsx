@@ -112,6 +112,14 @@ export const DATA = {
   ],
   education: [
     {
+      school: "Indian Institute of Information Technology",
+      href: "#",
+      degree: "Master's Degree in Data Science and Artificial Intelligence",
+      logoUrl: "#",
+      start: "2025",
+      end: "2027",
+    },
+    {
       school: "Imperial College London - Coursera",
       href: "https://www.coursera.org/account/accomplishments/specialization/Z786S9EJG6FZ",
       degree: "Mathematics for Machine Learning Specialization",
