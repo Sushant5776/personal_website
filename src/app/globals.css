@@ -215,12 +215,16 @@
   }
 
   @media (max-width: 640px) {
+    .hero-visual-card {
+      @apply flex flex-col;
+    }
+
     .visual-card-bottom {
-      @apply pr-0;
+      @apply order-4 pr-0;
     }
 
     .resume-download {
-      @apply static mt-4;
+      @apply order-5 mt-4 self-center;
     }
   }
 
