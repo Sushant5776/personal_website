@@ -207,11 +207,21 @@
   }
 
   .visual-card-bottom {
-    @apply mt-5 justify-start gap-2 text-[10px] uppercase tracking-[0.14em] text-white/60;
+    @apply mt-5 flex-wrap justify-start gap-2 pr-28 text-[10px] uppercase tracking-[0.14em] text-white/60;
   }
 
   .resume-download {
     @apply absolute bottom-5 right-5 z-20 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2.5 text-xs font-medium text-white/80 backdrop-blur-sm transition-colors duration-200 hover:border-white/40 hover:bg-white/20 hover:text-white;
+  }
+
+  @media (max-width: 640px) {
+    .visual-card-bottom {
+      @apply pr-0;
+    }
+
+    .resume-download {
+      @apply static mt-4;
+    }
   }
 
   .visual-card-bottom span {
