@@ -24,8 +24,8 @@ export default function Page() {
         <BlurFade delay={BLUR_FADE_DELAY * 2} className="hero-visual-card">
           <div className="visual-card-top"><span className="live-pill"><span /> Building now</span><span className="text-xs text-white/50">Pune · IN</span></div>
           <div className="portrait-orbit"><div className="orbit orbit-one" /><div className="orbit orbit-two" /><Image src={DATA.avatarUrl} alt={DATA.name} fill priority sizes="(max-width: 768px) 80vw, 440px" className="object-cover" /></div>
-          <a href="/sushant_garudkar_resume_ai_engineering.pdf" download className="resume-download"><Download className="size-4" /> Resume</a>
           <div className="visual-card-bottom"><span>AI / ML</span><span>Data Science</span><span>Full Stack</span></div>
+          <a href="/sushant_garudkar_resume_ai_engineering.pdf" download className="resume-download"><Download className="size-4" /> Resume</a>
         </BlurFade>
         <div className="hero-intro">
           <BlurFade delay={BLUR_FADE_DELAY} className="eyebrow"><span className="status-dot" /> Hello, I&apos;m Sushant</BlurFade>
