@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { BriefcaseBusinessIcon, GraduationCapIcon, HomeIcon, MailIcon } from "lucide-react";
 
 export const DATA = {
   name: "Sushant Garudkar",
@@ -8,38 +8,30 @@ export const DATA = {
   location: "Pune, India",
   locationLink: "https://www.google.com/maps/place/pune",
   description:
-    "Data Scientist creating tools that make a difference. I love building things and helping people. Very active on Twitter.",
+    "AI/ML engineer and data scientist building practical AI systems, data products, and full-stack tools.",
   summary:
-    "After starting out as a [full-stack developer in college](#education), I explored **AI in 2023** and dived deep into machine learning, [officially launching my career in AI](#experience). Since then, I’ve been focused on building AI tools that make a positive impact. I live by the motto **“stay curious and never stop learning.”** When I’m not coding, you’ll find me practicing the flute, reading books, or traveling to explore historical and spiritual places.",
+    "I help companies extract insights from data and make data-driven decisions. My background across full-stack software development and data science helps me tackle AI engineering challenges and build useful data-driven applications.",
   avatarUrl: "/me.png",
   skills: [
     "Python",
-    "SQL",
-    "NoSQL",
-    "NumPy",
-    "Pandas",
-    "PyTorch",
-    "Apache Spark",
-    "Scikit-Learn",
+    "SQL / Spark / Pandas",
+    "Scikit-Learn / PyTorch / TensorFlow",
+    "LangChain / Google ADK",
     "FastAPI",
     "Git & GitHub",
     "Docker",
-    "Jupyter Lab",
-    "Streamlit",
-    "Linux",
-    "Microsoft Azure",
-    "GCP Firebase",
-    "Domino Data Lab",
-    "Linear Algebra",
-    "(Multivariate) Calculus",
-    "Probability and Statistics"
+    "PyTest",
+    "Snowflake",
+    "GCP Firebase / AWS S3"
   ],
   navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "#hero", icon: HomeIcon, label: "Home" },
+    { href: "#work", icon: BriefcaseBusinessIcon, label: "Experience" },
+    { href: "#education", icon: GraduationCapIcon, label: "Education" },
+    { href: "#contact", icon: MailIcon, label: "Contact" },
   ],
   contact: {
-    email: "contact@sushantgarudkar.in",
+    email: "garudkar.sa@gmail.com",
     tel: "+917387382535",
     social: {
       GitHub: {
@@ -78,7 +70,7 @@ export const DATA = {
       // },
       Email: {
         name: "Send Email",
-        url: "mailto:contact@sushantgarudkar.in?subject=Contacting%20from%20sushantgarudkar.in&body=Hi%20Sushant,",
+        url: "mailto:garudkar.sa@gmail.com?subject=Contacting%20from%20sushantgarudkar.in&body=Hi%20Sushant,",
         icon: Icons.email,
 
         navbar: true,
@@ -92,10 +84,22 @@ export const DATA = {
       href: "https://www.allstateindia.com/",
       badges: [],
       location: "Pune, India",
+      title: "Data Scientist Consultant I",
+      logoUrl: "/allstate.png",
+      start: "July 2026",
+      end: "Present",
+      description:
+        "Helping teams extract insights from data and build data-driven solutions across AI engineering and applied data science.",
+    },
+    {
+      company: "Allstate India",
+      href: "https://www.allstateindia.com/",
+      badges: [],
+      location: "Pune, India",
       title: "Data Scientist Analyst III",
       logoUrl: "/allstate.png",
       start: "July 2025",
-      end: "Present",
+      end: "June 2026",
       description:
         "As a Data Scientist Analyst III at Allstate India, I leverage advanced analytics and machine learning to extract insights from complex data, supporting data-driven decision-making across business functions such as underwriting, claims, and risk assessment. I collaborate with cross-functional teams to develop predictive models and actionable solutions, and ensuring best practices in data governance and model quality.",
     },
@@ -104,12 +108,12 @@ export const DATA = {
       href: "https://www.allstateindia.com/",
       badges: [],
       location: "Pune, India",
-      title: "Apprentice Associate III - Data Science",
+      title: "Apprentice Associate III (Data Science)",
       logoUrl: "/allstate.png",
       start: "September 2024",
       end: "July 2025",
       description:
-        "In my apprenticeship at Allstate, I built and validated data pipelines, processed large datasets with PySpark, and used SHAP and PDP for model explainability. I handled the full model lifecycle—from data prep to production validation. I also developed a Streamlit app for sharing reports with secure filtering and exploration. Collaborating with teams, I delivered actionable insights and quickly gained skills in big data, model deployment, and Automation.",
+        "Built data pipelines, processed large datasets, explored model explainability, and developed data applications while learning the full machine learning lifecycle.",
     },
   ],
   education: [
@@ -124,7 +128,7 @@ export const DATA = {
     {
       school: "Imperial College London - Coursera",
       href: "https://www.coursera.org/account/accomplishments/specialization/Z786S9EJG6FZ",
-      degree: "Mathematics for Machine Learning Specialization",
+      degree: "Certificate · Mathematics for Machine Learning Specialization",
       logoUrl: "/imperial.png",
       start: "2024",
       end: "2025",
@@ -132,7 +136,7 @@ export const DATA = {
     {
       school: "Helsinki University",
       href: "https://devopswithdocker.com",
-      degree: "Cerfitication - DevOps with Docker",
+      degree: "Certificate · DevOps with Docker",
       logoUrl: "/helsinki.png",
       start: "2024",
       end: "2024",
@@ -155,34 +159,34 @@ export const DATA = {
     }
   ],
   projects: [
-    // {
-    //   title: "Chat Collect",
-    //   href: "https://chatcollect.com",
-    //   dates: "Jan 2024 - Feb 2024",
-    //   active: true,
-    //   description:
-    //     "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
-    //   technologies: [
-    //     "Next.js",
-    //     "Typescript",
-    //     "PostgreSQL",
-    //     "Prisma",
-    //     "TailwindCSS",
-    //     "Stripe",
-    //     "Shadcn UI",
-    //     "Magic UI",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://chatcollect.com",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video:
-    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    // } 
+    {
+      title: "AgentIQ",
+      href: "https://github.com/Sushant5776/agent-iq",
+      dates: "2026",
+      description:
+        "A production-grade enterprise RAG system using Gemini embeddings, Firestore vector search, and Python for semantic document retrieval, with batch ingestion and vector indexing for enterprise GenAI workflows.",
+      technologies: ["Gemini", "Firestore", "Python", "RAG"],
+      star: {
+        situation: "Enterprise teams needed a reliable way to search and use knowledge across internal documents.",
+        task: "Design a production-grade retrieval system for semantic document discovery.",
+        action: "Built Gemini embedding and Firestore vector-search pipelines in Python, including batch ingestion and indexing.",
+        result: "Created a foundation for enterprise GenAI and agentic AI workflows.",
+      },
+    },
+    {
+      title: "Custom Implementation of Claude Code",
+      href: "https://github.com/Sushant5776/codecrafters-claude-code-python",
+      dates: "2026",
+      description:
+        "A Claude Code-inspired agentic coding assistant built to practice autonomous workflows, tool use, task decomposition, file editing, and execution feedback.",
+      technologies: ["Agentic AI", "LLMs", "Python", "Tool Use"],
+      star: {
+        situation: "I wanted to understand what makes autonomous coding workflows useful in practice.",
+        task: "Build a personal Claude Code-inspired assistant from first principles.",
+        action: "Implemented agent loops, task decomposition, tool use, file editing, and execution feedback.",
+        result: "Gained hands-on experience designing LLM-based software engineering workflows.",
+      },
+    },
   ],
   hackathons: [
     {
